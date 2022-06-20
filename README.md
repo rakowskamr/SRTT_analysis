@@ -1,7 +1,7 @@
 # SRTT_analysis
-MATLAB scripts for the analysis of Serial Reaction Time Task performance, as performed in Rakowska et al. (2021)[^1] and (2022)[^2]
+MATLAB scripts for the analysis of **Serial Reaction Time Task performance**, as performed in Rakowska et al. (2021)[^1] and (2022)[^2]
 
-These scripts get the reaction time and error rate per block of the SRTT. Hands can be analysed together (BH) or separately (LHRH). Separate result files are created for the reactivated and non-reactivated blocks. Trials with reaction time > 1000 ms were excluded from the reaction time analysis; trials with incorrect button presses prior to the correct ones remain.
+These scripts get the reaction time and error rate per block of the SRTT. Hands can be analysed together (BH) or separately (LH/RH). Separate result files are created for the reactivated and non-reactivated blocks. Trials with reaction time > 1000 ms were excluded from the reaction time analysis; trials with incorrect button presses prior to the correct ones remain.
 
 This repository contains 4 scripts:
 - SRTT_reactiontime4BH.m - SRTT reaction time analysis for all (both-hands) trials
